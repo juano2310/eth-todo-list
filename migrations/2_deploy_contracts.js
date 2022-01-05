@@ -1,5 +1,5 @@
-const TodoList = artifacts.require("TodoList");
+const couplesList = artifacts.require("couplesList");
 
 module.exports = function(deployer) {
-  deployer.deploy(TodoList);
+  deployer.deploy(couplesList);
 };
